@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://b0egi6ce00sj8"]
+
+[ext_resource type="Shader" uid="uid://1r8ol3svt7vi" path="res://Shaders/noisePatterns.gdshader" id="1_7bsyx"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_7bsyx")
+shader_parameter/shaderPass = 1

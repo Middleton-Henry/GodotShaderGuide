@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://ot3w4a3dky1e"]
+
+[ext_resource type="Texture2D" uid="uid://cpsr14k56whdm" path="res://icon.svg" id="1_bbyu2"]
+[ext_resource type="Material" uid="uid://b0egi6ce00sj8" path="res://Shaders/noisePatterns.tres" id="1_eean4"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+material = ExtResource("1_eean4")
+position = Vector2(229, 182)
+texture = ExtResource("1_bbyu2")
